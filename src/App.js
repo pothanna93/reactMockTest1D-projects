@@ -76,7 +76,7 @@ class App extends Component {
               alt={eachItem.name}
               className="proj-img"
             />
-            <p>{eachItem.name}</p>
+            <p className="project-name">{eachItem.name}</p>
           </li>
         ))}
       </ul>
