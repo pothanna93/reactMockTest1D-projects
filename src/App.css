@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-container {
+  background-color: #cbd5e1;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logo-img {
+  width: 120px;
+  height: 60px;
+}
+.projects-container {
+  padding: 30px;
+}
+.select-element {
+  height: 40px;
+  width: 40vw;
+  border-radius: 8px;
+}
+.proj-img {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+}
+.ul-projects-items {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 30px;
+}
+.li-item {
+  width: 240px;
+  margin: 8px;
+  text-align: center;
+  box-shadow: 0px 1px 5px 0px;
+  border-radius: 12px;
+}
+.failure-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.fail-image {
+  width: 500px;
+  height: 300px;
+}
+.fail-heading {
+  font-size: 46px;
+  color: #475569;
+  font-weight: 600;
+  font-family: 'roboto';
+}
+.fail-para {
+  font-size: 16px;
+  margin-top: 0px;
+  padding: 0px;
+  color: #475569;
+}
+.btn-retry {
+  width: 100px;
+  height: 38px;
+  color: #cbd5e1;
+  background-color: #328af2;
+  border: none;
+  border-radius: 6px;
+}
+.loader-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
